@@ -174,6 +174,8 @@ document.addEventListener('DOMContentLoaded', function() {
         case "game?":
         clearInput();
         openLinkInNewWindow('game.html');
+        addTextToResults("play the game at : https://calipti.github.io/assistant-v3.0.0/game.html.");
+        addTextToResults("sorry the game dose not work on mobile.");
         break;
 
 
