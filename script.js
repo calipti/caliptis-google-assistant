@@ -178,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function() {
         addTextToResults("sorry the game dose not work on mobile.");
         break;
 
-      case "open chat":
+      case "open group chat":
         case "chat":
         clearInput();
         openLinkInNewWindow('Chat.html');
