@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', function() {
         openLinkInNewWindow('Chat.html');
         break;
 
-      case "open voice assistant":
+      case "please open voice assistant":
         case "voice assistant":
         clearInput();
         openLinkInNewWindow('Voice assistant.html');
