@@ -46,6 +46,7 @@ document.addEventListener('DOMContentLoaded', function() {
       "- 'Time' will display the current time.",
       "- 'Date' will display the current date.",
       "- 'tech' will make you expert by showing tech",
+      "- 'voice assistant' will take you to a voice version of me it's a beta to be exact its beta 1.3",
       "* There are more keywords that you have to discover by yourself."
     ].join('<br>');
     addTextToResults(helpKeyWords);
@@ -182,6 +183,12 @@ document.addEventListener('DOMContentLoaded', function() {
         case "chat":
         clearInput();
         openLinkInNewWindow('Chat.html');
+        break;
+
+      case "open voice assistant":
+        case "voice assistant":
+        clearInput();
+        openLinkInNewWindow('Voice assistant.html');
         break;
 
       case "date":
