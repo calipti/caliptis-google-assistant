@@ -134,6 +134,18 @@ recognition.addEventListener("result", (e) => {
       console.log("opening youtube");
       window.open("https://www.youtube.com/", "_blank");
     }
+    if (
+      text.includes("text assistant"
+      ) ||
+      text.includes("open text assistant")
+    ) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "openin assistant";
+      texts.appendChild(p);
+      console.log("opening assistant");
+      window.open("https://calipti.github.io/caliptis-google-assistant/", "_blank");
+    }
     p = document.createElement("p");
   }
 });
