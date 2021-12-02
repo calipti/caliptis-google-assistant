@@ -47,7 +47,9 @@ document.addEventListener('DOMContentLoaded', function() {
       "- 'Date' will display the current date.",
       "- 'tech' will make you expert by showing tech",
       "- 'voice assistant' will take you to a voice version of me it's a beta to be exact its beta 1.3",
+      "- 'oregon trail' will takeyou to an oregon trail emulator"
       "* There are more keywords that you have to discover by yourself."
+      
     ].join('<br>');
     addTextToResults(helpKeyWords);
   }
@@ -134,6 +136,15 @@ document.addEventListener('DOMContentLoaded', function() {
         addTextToResults("F***.");
         break;
 
+      case "oregon trail":
+      case "oregon trail emulator":
+      case "take me to the oregon trail":
+        clearInput();
+        addTextToResults('an oregon trail emulator');
+        openLinkInNewWindow('https://calipti.github.io/oregon-trail-emulator/');
+        break;
+        
+        
       case "shit":
       case "poop":
       case "💩":
