@@ -135,15 +135,6 @@ document.addEventListener('DOMContentLoaded', function() {
         clearInput();
         addTextToResults("F***.");
         break;
-
-      case "oregon trail":
-      case "oregon trail emulator":
-      case "take me to the oregon trail":
-        clearInput();
-        addTextToResults('an oregon trail emulator');
-        openLinkInNewWindow('https://calipti.github.io/oregon-trail-emulator/');
-        break;
-        
         
       case "shit":
       case "poop":
